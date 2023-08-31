@@ -9,7 +9,8 @@ export default async function Home() {
   return (
    <div>
     <h1>Homepage</h1>
-    <button onClick={handleSet}>set Cookies</button>
+    <button onClick={handleSet} className="button">set Cookies</button>
+    <Link href="./showcookies" className="button">SHow Cookies</Link>
     
 
    </div>

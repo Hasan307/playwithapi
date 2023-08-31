@@ -7,7 +7,7 @@ export  async function GET(req,res){
      {
       status: 400,
       headers:{
-        'Set-Cookie':'theme=dark;Path=/'
+        'Set-Cookie':'thooome=dark;Path=/'
       }
      }
     );
